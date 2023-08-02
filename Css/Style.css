@@ -1,5 +1,5 @@
 /* RESET */
-* {margin: 0%; padding: 0%; font-size: 100%; border: none; outline: none; font-weight: 300%; box-sizing: border-box; height: 100vh;}
+* {margin: 0%; padding: 0%; font-size: 100%; border: none; outline: none; font-weight: 300%; box-sizing: border-box;}
 body {background-color: snow; }
 a {text-decoration: none;}
 ul {list-style: none;}
@@ -57,5 +57,6 @@ footer ul{
     footer{ background-color: rgba(144, 176, 235, 0.815);
         height: auto;
            position: absolute;
+           bottom: 0;
     }
     
