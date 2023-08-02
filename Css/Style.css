@@ -57,7 +57,7 @@ footer ul{
     footer{ background-color: rgba(144, 176, 235, 0.815);
         height: auto;
         bottom:0;
-           position: absolute;
+           position: fixed;
            width: 100%;
     }
     
