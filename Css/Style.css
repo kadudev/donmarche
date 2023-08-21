@@ -1,0 +1,106 @@
+/* RESET */
+* {margin: 0%; padding: 0%; font-size: 100%; border: none; outline: none; font-weight: 300%; box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body { 
+    background-color: rgba(42, 225, 231, 0.815);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+overflow-x: hidden;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+/* CABECALHO */
+.cabecalho {width: 100%; float: left; padding: 3% 4%; background-color: rgb(58, 193, 238);}
+.logo {width: 72px; height: 72px; float: left; background: url(../Img/Logotipo.png) center center/72px no-repeat;
+font-size: 0;}
+
+main{
+    height: 85vh;
+    flex: 1;
+}
+.isVisible{
+    display: none;
+}
+.isVisible{
+    display: none;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: rgba(29, 102, 236, 0.815);
+    float: right;
+    cursor: pointer;
+}
+
+ ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+ ul li{
+    list-style: none;
+    float: right;
+    margin: 3px;
+}
+
+ ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* Bon Marché */
+.jogos {width: 100%; float: left; padding: 3% 4%;}
+.jogo {width: 100%; background-color: rgba(37, 105, 233, 0.815); text-align: left; border-radius: 7px; margin-bottom: 3%;}
+.jogo img {border-radius: 7px 7px 0 0;}
+.inner {padding: 7%;}
+.inner a {font-size: 1.5em; color: rgb(255, 255, 255); font-weight: 700;}
+.inner h2 {font-size: 1.2em; color: rgb(255, 255, 255); margin-top: 2%;}
+.inner p { margin-top: 6%; color: rgb(255, 255, 255); line-height: 1.5em;}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(58, 193, 238);
+        height: auto;
+}
+
+footer{
+    font-size: 14px;
+    height: auto;
+    bottom: 0;
+    width: 100vw;
+    background-color: rgb(58, 193, 238);}
+
+/* Tela de login */
+
+.login { font-size: 1.1em; margin-top: 2%; color: rgb(0, 0, 0); line-height: 1.7em; padding: 0% 2% ;
+ background-color: rgb(70, 103, 252); border-radius: 75px;}
+
+ /* Tela de Cadastro */
+ 
+ .cadastro{ font-size: 1.1em; margin-top: 2%; color: rgb(0, 0, 0); line-height: 1.7em; padding: 0% 2% ;
+    background-color: rgb(70, 103, 252); border-radius: 75px;
+
+ }
+
+ .wrapper {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main content, Footer */
+    min-height: 100vh;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    height: auto;
+  }

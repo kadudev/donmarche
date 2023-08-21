@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro - Bon Marché </title>
+    <link rel="stylesheet" href="Css/Style.css" media="all" />
+    <link rel="stylesheet" href="Css/medicao-tela.css" />
+    <link rel="shortcut icon" href="Img/Dados.png" type="image/x-icon" />
+
+</head>
+<body>
+    <div class="wrapper">
+        <header class="cabecalho">
+            <div class="menu" id="menu">
+                <div class="btn-menu"><img src="Img/carta.png" alt="" height="56px"></div>
+            </div>
+            <a href="index.html"><h1 class="logo"> Bon</h1>
+    
+            <div class="isVisible" id="opcoes">
+                <nav>
+                <ul class="navbar">
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="https://trucoon.com.br/jogo/">Truco</a></li>
+                    <li><a href="https://pifeon.com.br">Relance</a></li>
+                    <li><a href="https://buracoon.com.br">Buraco</a></li>
+                    <li><a href="https://www.clickjogos.com.br/jogos-de-cartas/blackjack-vegas-21">21</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+<center>
+     <form action="login.html" method="POST" class="cadastro">
+        <label for="Nome"> Nome :</label>
+        <br>
+        <input type="Nome" placeholder="Nome Completo" name="Nome" id="Nome" required >
+        <br>
+        <label for="Cpf"> Cpf : </label>
+        <br>
+        <input type="Cpf" placeholder="000-000-000-00"  name="Cpf" id="Cpf" required>
+        <br>
+        <label for="Email"> Email : </label>
+        <br>
+        <input type="Email" placeholder="Informe o Email" name="Email" id="Email" required>
+        <br>
+        <label for="senha"> Senha : </label>
+        <br>
+        <input type="password" placeholder="Digite sua senha" name="senha" id="senha" required>
+        <br>
+        <input type="submit" value="Cadastrar">
+    </center>
+     </form>
+     <a href="#"><img src="Img/Cassino.png" alt="Cassino"></a>
+     <footer>
+        <script>
+            const menu= document.getElementById('menu');
+            const opcoes= document.getElementById('opcoes');
+    
+            menu.addEventListener('click', ()=>{
+                opcoes.classList.toggle('isVisible');
+            })
+        </script>
+        <center>  <p>&copy; Bon Marché - Todos os direitos reservados a seus devidos usuários
+        </p> </center>
+        <center>   <p>Siga-nos nas redes sociais:</p> </center>
+           <ul>
+               <li><a href="https://www.facebook.com">Facebook</a></li>
+               <li><a href="https://twitter.com">Twitter</a></li>
+               <li><a href="https://www.instagram.com">Instagram</a></li>
+           </ul>
+       </footer>
+    </div>
+</body>
+</html>
